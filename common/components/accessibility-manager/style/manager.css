@@ -1,0 +1,7 @@
+.pbs-base-main-container [aria-visible=true] {
+    display: none;
+}
+
+.acc-element:focus {
+    outline: 1px dotted #000;
+}

@@ -1,0 +1,4 @@
+!function(){var a=Handlebars.template,t=Handlebars.templates=Handlebars.templates||{}
+t["spinner-template"]=a(function(a,t,n,e,s){this.compilerInfo=[4,">= 1.0.0"],n=this.merge(n,a.helpers),s=s||{}
+var i,r="",o="function",d=this.escapeExpression
+return r+='<div id="',(i=n.spinBoxId)?i=i.call(t,{hash:{},data:s}):(i=t&&t.spinBoxId,i=typeof i===o?i.call(t,{hash:{},data:s}):i),r+=d(i)+'-content-holder" class="spinbox">\r\n    <div class="arrowbutton-container up fa fa-caret-up"></div>\r\n    <div id="',(i=n.spinBoxId)?i=i.call(t,{hash:{},data:s}):(i=t&&t.spinBoxId,i=typeof i===o?i.call(t,{hash:{},data:s}):i),r+=d(i)+'-text" class="spin-textbox-container">\r\n        <input type="text" value="" class="textbox-field" />\r\n    </div>\r\n    <div class="arrowbutton-container down fa fa-caret-down"></div>\r\n</div>\r\n'})}()
