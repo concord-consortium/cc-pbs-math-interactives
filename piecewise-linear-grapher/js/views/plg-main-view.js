@@ -58,13 +58,6 @@ define([
             this.listenTo(this.model, "OnDeselectLine", this.OnDeselectLine);
             this.listenTo(this.model, "updateAccText", this.updateAccText);
             this.listenTo(this.model, "onSelectLine", this.onSelectLine);
-
-
-            //For Debugging-Please remove------------------------------------------------------------------------------------
-            this.$el.on('focusin', function(event) {
-                console.log("%cFOCUS is on: %c" + event.target.id + "%c --- TABINDEX: %c" + $(event.target).attr('tabindex') + "%c --- ACCTEXT: %c" + $(event.target).attr('aria-label'), 'color: black', 'color: red; font-weight: bold', 'color: black', 'color: green; font-weight: bold', 'color: black', 'color: blue; font-weight: bold');
-            });
-            //----------------------------------------------------------------------------------------------------------------
         },
 
 
